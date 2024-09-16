@@ -15,17 +15,17 @@
                 }
             }
 
-            function multiply(a, b) {
+    function multiply(a, b) {
                 // Introduce a debugger statement to pause execution
                 debugger;
 
                 // Multiply the numbers
                 return a * b;
-            }
+    }
 
-            function displayResult(result) {
+    function displayResult(result) {
                 // Display the result in the paragraph element
                 const resultElement = document.getElementById('result');
                 resultElement.textContent = `The result is: ${result}`;
-            }
+    }
         
